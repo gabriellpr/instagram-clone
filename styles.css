@@ -1,0 +1,236 @@
+* {
+  padding: 0;
+  margin-left: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F5F5F5 !important;
+}
+
+h3 {
+  color: gray;
+}
+
+ header {
+  background-color: white;
+  border-bottom: 1px solid #D3D3D3;
+ }
+
+header nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+header .icones {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  margin-top: 1%;
+
+  font-size: 18px;
+
+  list-style: none;
+
+}
+
+header .icones img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid grey;
+
+    padding: 2%;
+}
+
+/** MAIN **/
+main{
+  display: flex;
+
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section .stories ul li img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #c13584;
+
+    padding: 2%;
+}
+
+.stories {
+   background-color: white;
+   width: 600px;
+   height: 100px;
+
+   margin: 5%;
+   padding: 2%;
+
+   border: 1px solid #D3D3D3;
+   border-radius: 3px;
+}
+
+.stories .nome-stories {
+  font-size: 12px;
+}
+
+.stories li {
+}
+
+.feed {
+  background-color: white;
+  width: 600px;
+  height: 643px;
+
+  border: 1px solid #D3D3D3;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+
+}
+
+.feed .linha-usuario{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 2%;
+  width: 500px;
+  margin-left: -15%;
+}
+
+.feed .linha-usuario p {
+  font-size: 14px;
+  font-weight: bolder;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+.feed .linha-usuario .usuario-foto{
+  display: flex;
+  align-items: center;
+
+}
+
+.feed .linha-usuario img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #c13584;
+
+  padding: 2%;
+}
+
+.feed .infos{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+  margin-top: 2%;
+
+  font-size: 20px;
+}
+
+
+
+.feed .imagem-principal {
+  width: 593px;
+  margin-left: -10%;
+}
+
+/** ASIDE **/
+aside{
+  width: 293px;
+  height: 365px;
+  margin: 3%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+aside .perfil {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+aside .perfil img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #D3D3D3;
+}
+
+aside .perfil-name{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+aside .perfil-name p {
+  margin-top: 25%;
+  margin-left: -50%;
+  font-size: 14px;
+}
+
+aside .perfil-name h3{
+  margin-top: -15%;
+  margin-left: -50%;
+  font-size: 14px;
+
+}
+
+aside ul {
+  display: flex;
+  flex-direction: column;
+  margin-left: -14%;
+}
+
+aside ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  width: 260px;
+}
+
+aside ul li img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #D3D3D3;
+
+    padding: 2%;
+}
+
+aside ul li p {
+  font-size: 14px;
+}
+
+aside a {
+  font-size: 14px;
+}
